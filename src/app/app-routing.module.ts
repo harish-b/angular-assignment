@@ -9,7 +9,7 @@ import { DynamicdivComponent } from './dynamicdiv/dynamicdiv.component';
 
 
 const routes: Routes = [
-{  path:'', component: TickerComponent},
+{  path:'', redirectTo: '/ticker', pathMatch: 'full'},
 {  path:'ticker', component: TickerComponent},
 {  path:'ecommerce', component: EcommerceComponent},
 {  path:'countdown', component: CountdowntimerComponent},
