@@ -17,7 +17,7 @@
     gap: 10px 20px;
 }
 th {
-    background-color: #a79f9f;
+    background-color: darkgray;
     border: 2px solid white;
     cursor: pointer;
 }

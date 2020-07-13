@@ -1,6 +1,7 @@
 .squarebox {
+    display: inline-block;
     overflow: hidden;
-    margin: 150px 100px;
+    margin: 150px;
     box-shadow: 
     0 0 0 5px #fff,
     0 0 0 10px #000,
@@ -13,7 +14,9 @@
     0 0 0 85px #fff,
     0 0 0 90px #000,
     0 0 0 105px #fff,
-    0 0 0 110px #000;
+    0 0 0 110px #000,
+    0 0 0 125px #fff,
+    0 0 0 130px #000;
 }
 h3 {
     width: 100%;

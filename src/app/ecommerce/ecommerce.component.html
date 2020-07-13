@@ -1,6 +1,6 @@
 <div class="ecommerce-container">
 <div class="top-bar">
-    <button type="button" (click)="toggleLayout()" class="btn btn-sm btn-toggle"><img src="../../assets/images/layoutToggle.png"/></button>
+    <button type="button" (click)="toggleLayout()" class="btn btn-sm btn-toggle"><i [ngClass]="twoColumnLayout?'fas fa-align-justify':'fas fa-equals'"></i></button>
     <app-dropdown (sortedByPrice)="sortByPrice($event)"></app-dropdown>
 </div>
 

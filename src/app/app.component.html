@@ -1,11 +1,11 @@
 <div class="container">
       <ul class="nav nav-tabs">
-        <li role="presentation" class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]={exact:true}><a class="nav-link" routerLink="/ticker">Ticker</a></li>
-        <li role="presentation" class="nav-item"><a class="nav-link" routerLink="/ecommerce">ECommerce</a></li>
-        <li role="presentation" class="nav-item"><a class="nav-link" [routerLink]="['/countdown']">CountDown Timer</a></li>
-        <li role="presentation" class="nav-item"><a class="nav-link" [routerLink]="['/countdown2']">CountDown Timer2</a></li>
-        <li role="presentation" class="nav-item"><a class="nav-link" routerLink="/markstable">Marks Table</a></li>
-        <li role="presentation" class="nav-item"><a class="nav-link" routerLink="/dynamicdiv">Dynamic Div</a></li>
+        <li role="presentation"><a class="nav-link" routerLinkActive="active"  [routerLinkActiveOptions]={exact:true} routerLink="/ticker">Ticker</a></li>
+        <li role="presentation"><a class="nav-link" routerLinkActive="active" routerLink="/ecommerce">ECommerce</a></li>
+        <li role="presentation"><a class="nav-link" routerLinkActive="active" [routerLink]="['/countdown']">CountDown Timer</a></li>
+        <li role="presentation"><a class="nav-link" routerLinkActive="active" [routerLink]="['/countdown2']">CountDown Timer2</a></li>
+        <li role="presentation"><a class="nav-link" routerLinkActive="active" routerLink="/markstable">Marks Table</a></li>
+        <li role="presentation"><a class="nav-link" routerLinkActive="active" routerLink="/dynamicdiv">Dynamic Div</a></li>
       </ul>
   <div class="container main-container">
       <router-outlet></router-outlet>

@@ -11,6 +11,7 @@
 .btn-toggle {
     margin: 10px;
     cursor: pointer;
+    background: darkseagreen;
 }
 .container {
     display: grid;
@@ -29,5 +30,9 @@
     justify-content: center;
     height: 200px;
     border: 2px solid black;
+}
+.fas {
+    font-size: 20px;
+    transform: rotate(90deg);
 }
 
