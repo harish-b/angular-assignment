@@ -1,0 +1,13 @@
+<div class="timerinputContainer">
+    <label>
+        Enter timer limit
+        <input [(ngModel)]="countdown" type="text">
+    </label>
+    <div class="buttonContainer">
+        <button class="btn btn-primary btn-small" [disabled]="isDisabled()" (click)="countdownStarted ? pauseCountdown() : startCountdown()">{{countdownStarted ? 'pause': 'start'}}</button>
+        <button class="btn btn-primary btn-small" (click)="resetCountdown()">reset</button>
+    </div>
+    <ul>
+        <li *ngFor="let log of pausedat">{{log}}</li>
+    </ul>
+</div>

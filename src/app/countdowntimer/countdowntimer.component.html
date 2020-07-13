@@ -1,0 +1,6 @@
+<div class="container">
+    <app-timerdisplay [timerCountDisplay] = "timerCount"></app-timerdisplay>
+    <app-timerinput (countdownEvent)="countdownChanged($event)" (logsEvent)="logger($event)"></app-timerinput>
+    <app-timerlogger [logs]="logs"></app-timerlogger>
+    <app-timerclicklogger [startClicked]="started" [pauseClicked]="paused"></app-timerclicklogger>
+</div>

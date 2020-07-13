@@ -1,0 +1,13 @@
+<div class="ecommerce-container">
+<div class="top-bar">
+    <button type="button" (click)="toggleLayout()" class="btn btn-sm btn-toggle"><img src="../../assets/images/layoutToggle.png"/></button>
+    <app-dropdown (sortedByPrice)="sortByPrice($event)"></app-dropdown>
+</div>
+
+<div class="container" [ngStyle]="{'grid-template-columns': getGridType()}">
+    <div *ngFor="let product of products" class="item">
+        <h3>{{product.name}}</h3>
+        <h4>$ {{product.price}}</h4>
+    </div>
+</div>
+</div>

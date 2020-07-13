@@ -1,0 +1,65 @@
+[
+    {
+      "id": 1,
+      "name": "Odonnell Love",
+      "class": 3,
+      "section": "D",
+      "subject1": 78,
+      "subject2": 76,
+      "subject3": 49
+    },
+    {
+      "id": 2,
+      "name": "Mcmillan Hester",
+      "class": 3,
+      "section": "A",
+      "subject1": 80,
+      "subject2": 88,
+      "subject3": 68
+    },
+    {
+      "id": 3,
+      "name": "Betty Daniel",
+      "class": 3,
+      "section": "B",
+      "subject1": 60,
+      "subject2": 65,
+      "subject3": 60
+    },
+    {
+      "id": 4,
+      "name": "Holt Morgan",
+      "class": 3,
+      "section": "C",
+      "subject1": 39,
+      "subject2": 42,
+      "subject3": 44
+    },
+    {
+      "id": 5,
+      "name": "Levy Wheeler",
+      "class": 3,
+      "section": "C",
+      "subject1": 32,
+      "subject2": 70,
+      "subject3": 59
+    },
+    {
+      "id": 6,
+      "name": "Marshall Britt",
+      "class": 3,
+      "section": "C",
+      "subject1": 50,
+      "subject2": 69,
+      "subject3": 77
+    },
+    {
+      "id": 7,
+      "name": "Sallie Ray",
+      "class": 3,
+      "section": "A",
+      "subject1": 24,
+      "subject2": 41,
+      "subject3": 39
+    }
+  ]

@@ -1,0 +1,33 @@
+.ecommerce-container {
+    border: 2px solid black;
+    padding: 10px;
+}
+.top-bar {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.btn-toggle {
+    margin: 10px;
+    cursor: pointer;
+}
+.container {
+    display: grid;
+    gap: 10px 20px;
+}
+.two-column-grid {
+    grid-template-columns: 1fr 1fr;
+}
+.four-column-grid {
+    grid-template-columns: repeat(4, 1fr);
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    border: 2px solid black;
+}
+

@@ -1,0 +1,23 @@
+<div class="markstable-container">
+    
+    <!-- <div class="container" [ngStyle]="{'grid-template-columns': getGridType()}">
+        <span [ngClass]="{'ascending': ascending}">></span>
+    </div> -->
+    <div class="container">
+        <table class="table table-striped">
+          <thead>
+              <tr>
+                <th *ngFor="let header of headers" [attr.sortType]="'ascending'" (click)="sortBy($event, header)">
+                    <span class="left-float">{{header | titlecase}}</span>
+                    <!-- <span class="right-float">></span> -->
+                </th>
+              </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let student of students">
+                <td *ngFor="let header of headers">{{ student[header]}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>

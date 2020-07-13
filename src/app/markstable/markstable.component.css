@@ -1,0 +1,36 @@
+.markstable-container {
+    border: 2px solid black;
+    padding: 10px;
+}
+.top-bar {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.btn-toggle {
+    margin: 10px;
+    cursor: pointer;
+}
+.container {
+    display: grid;
+    gap: 10px 20px;
+}
+th {
+    background-color: #a79f9f;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.left-float {
+    float: left;
+}
+.right-float {
+    float: right;
+}
+span.right-float:hover {
+    transform: rotate(-90deg);
+}
+.ascending {
+    transform: rotate(-90deg);
+}
+
