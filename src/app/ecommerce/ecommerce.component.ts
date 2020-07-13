@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {HttpClient} from '@angular/common/http';
 import * as data from '../../assets/ecommerce.json';
 
 @Component({
@@ -11,7 +10,7 @@ export class EcommerceComponent implements OnInit {
   twoColumnLayout= true;
   products: any = (data as any).default;
 
-  constructor(private httpClient: HttpClient) { }
+  constructor() { }
 
   ngOnInit(): void {
     console.log((data as any).default);
