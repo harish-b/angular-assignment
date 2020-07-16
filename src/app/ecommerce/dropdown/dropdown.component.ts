@@ -6,7 +6,7 @@ import { Component, OnInit, ViewChild, ElementRef, EventEmitter, Output } from '
   styleUrls: ['./dropdown.component.css']
 })
 export class DropdownComponent implements OnInit {
-  @ViewChild('selectByPrice') selectByPrice: ElementRef;
+  // @ViewChild('selectByPrice') selectByPrice: ElementRef;
   @Output() sortedByPrice = new EventEmitter<{price:string}>();
 
   constructor() { }
